@@ -1,0 +1,11 @@
+GEM
+  remote: http://ruby.taobao.org/
+  specs:
+    sass (3.4.5)
+
+PLATFORMS
+  ruby
+  x86-mingw32
+
+DEPENDENCIES
+  sass (>= 3.4.0)

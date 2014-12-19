@@ -1,0 +1,29 @@
+{
+  "name": "simple-scroll-load",
+  "description": "a simple scroll load plugin based oimpleModule",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mycolorway/simple-scroll-load",
+  "author": {
+    "name": "wangxuke",
+    "email": "wangxuke@mycolorway.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mycolorway/simple-scroll-load.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mycolorway/simple-scroll-load/issues"
+  },
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "devDependencies": {
+    "grunt": "0.x",
+    "grunt-contrib-watch": "0.x",
+    "grunt-contrib-coffee": "0.x",
+    "grunt-contrib-sass": "0.x",
+    "grunt-contrib-jasmine": "0.x",
+    "grunt-umd": "2.x"
+  },
+  "keywords": []
+}

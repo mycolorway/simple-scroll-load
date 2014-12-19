@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Scroll-load Demo</title>
+    <meta charset="utf-8" />
+    <link media="all" rel="stylesheet" type="text/css" href="styles/scroll-load.css" />
+    <style type="text/css">
+        html, body {
+            background:#F9F9F9;
+            padding: 0;
+            margin: 0;
+            font: 14px/1.6 "Lucida Grande", "Helvetica", sans-serif;
+            color: #333;
+        }
+        .wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            color: rgb(113, 113, 113);
+        }
+        header {
+            margin: 50px 0;
+            text-align: center;
+        }
+        #content {
+            margin: 30px 0;
+        }
+        #content li {
+            margin:10px 0px;
+            width:100%;
+            background:#352828;
+            padding:5px 10px;
+            border-radius: 15px;
+            text-shadow: 2px 1px -1px #000000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1>Simple Scroll-load Demo</h3>
+        </header>
+        <section id="content">
+            <li><p>The supplement shows the contributions of more than 100 institutes within the different disciplines. Dedicated to results for papers published between 1 January and 31 December 2013 from China, the supplement shows that CAS has a larger output in the index than all the other research institutions worldwide.</p></li>
+            <li><p>Chinese Academy of Sciences (CAS), with 2,661 articles published in 68 high-quality journals, continues to top the China index list, according to Nature Index China 2014, published as a supplement in Nature today by the Nature Publishing Group. </p></li>
+            <li><p>CAS is also a regular contributor to Nature and Science, having published 54 articles (WFC = 18.6) in these two top journals in 2013 (see Figure 1). By WFC this represents one-third of China’s total contribu­tion to Nature and Science, reflecting the Academy’s strength in basic research.</p></li>
+            <li><p>Nature Publishing Group (NPG) is a publisher of high impact scientific information in print and online. NPG publishes journals, online databases and services across the life, physical, chemical and applied sciences. </p></li>
+            <li><p>The Chinese Academy of Sciences is one of world’s largest scientific organiza­tions, with about 48,500 researchers in 114 institutes spread across the country. The Academy has just celebrated its 65th anniversary last month</p></li>
+            <li><p> Speaking at the White House, Obama said the US will end "an outdated approach that for decades has failed to advance our interests".</p></li>
+            <li><p>Phasellus vehicula turpis nec dui facilisis eget condimentum risus ullamcorper. Nunc imperdiet, tortor ultrices aliquam eleifend, nisl turpis venenatis dui, at vestibulum magna tellus in tortor. </p></li>
+            <li><p>"Instead we will begin to normalize relations between our two countries," said Obama, adding that it will "begin a new chapter among the nations of the Americas".</p></li>
+            <li><p>Aenean interdum dui vitae purus molestie nec placerat nibh semper. Maecenas ultrices elementum dapibus. Aenean feugiat, metus in mattis mattis, justo nisi dignissim libero, ac volutpat dui nibh quis metus.</p></li>
+            <li><p> Morbi eget tristique dui. Vivamus nec turpis eu nisi euismod accumsan sed in tortor. Maecenas laoreet leo ut tortor viverra facilisis.</p></li>
+        </section>
+        <div id="scroll-load"></div>
+    </div>
+    <script type="text/javascript" src="vendor/bower/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/bower/simple-module/lib/module.js"></script>
+    <script type="text/javascript" src="lib/scroll-load.js"></script> 
+    <script type="text/javascript">
+    
+    simple.scrollLoad({
+        el: '#scroll-load',
+        url: 'democontent.html',
+        method: 'GET',
+        container: '#content',
+        heightOffset: 10
+    })
+    </script>
+</body>
+
+</html>
+
+

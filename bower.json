@@ -1,0 +1,31 @@
+{
+  "name": "simple-scroll-load",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mycolorway/simple-scroll-load",
+  "authors": [
+    "wangxuke <wangxuke@mycolorway.com>"
+  ],
+  "description": "a simple scroll load plugin based oimpleModule",
+  "main": "lib/scroll-load.js",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "spec",
+    "node_modules",
+    "vendor",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.coffee",
+    "package.json",
+    "README.md",
+    "demo.html",
+    "circle.yml",
+    "umd.hbs"
+  ],
+  "dependencies": {
+    "jquery": "2.x",
+    "simple-module": "2.x"
+  }
+}
+
